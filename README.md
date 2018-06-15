@@ -12,6 +12,7 @@
 1. conda create --name venv python=3.6
 2. source activate venv
 3. gunicorn --bind 0.0.0.0:8000 hello-world:app
-4. gunicorn --bind 0.0.0.0:8000 server:app
-5. https:0.0.0.0:8000/predict
+4. https://localhost:8000/users/any-name
+5. gunicorn --bind 0.0.0.0:8000 server:app
+6. https:0.0.0.0:8000/predict
 
